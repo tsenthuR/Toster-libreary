@@ -6,7 +6,7 @@ import android.widget.Toast;
 public class TosterMessege {
     public static void s(Context c, String message){
 
-        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+        Toast.makeText(c,"Srilanka"+message,Toast.LENGTH_SHORT).show();
 
     }
 }
