@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements TosterName {
@@ -15,13 +16,12 @@ public class MainActivity extends AppCompatActivity implements TosterName {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    public void testfunction( ) {
-        System.out.print("Hello ");
-      //  Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
 
+
+
+    @Override
+    public void testfunction(View view, String name) {
+        Toast.makeText(this, "Hello"+message, Toast.LENGTH_SHORT).show();
 
     }
-
-
 }
