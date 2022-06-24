@@ -16,11 +16,8 @@ public class MainActivity extends AppCompatActivity implements TosterName {
         setContentView(R.layout.activity_main);
     }
 
-
-
-
     @Override
-    public void testfunction(View view, String name) {
+    public void Testfunction(View view, String name) {
         Toast.makeText(this, "Hello"+message, Toast.LENGTH_SHORT).show();
 
     }
