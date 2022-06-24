@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity implements TosterName {
 
     @Override
     public void testfunction( ) {
-        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+        System.out.print("Hello ");
+      //  Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
 
 
     }
