@@ -5,11 +5,9 @@ import android.view.View;
 import android.widget.Toast;
 
 public class TosterMessege  implements TosterName{
-    String message;
-    public static void s(Context c, String message){
+    public static void s(Context c, String name){
 
     }
-
 
     @Override
     public void Testfunction(Context c, String name) {
